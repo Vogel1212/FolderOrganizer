@@ -1,7 +1,7 @@
 import shutil
 import os
 
-path=input("Enter Folder: ")
+path=input("Enter Folder Location: ")
 files=os.listdir(path)
 
 for file in files:
